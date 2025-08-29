@@ -102,20 +102,29 @@
     /* -------- Education -------- */
     .education {
       background: white;
-      border-radius: 12px;
-      padding: 30px 20px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      border-radius: 15px;
+      padding: 40px 30px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
       margin-top: 60px;
+      text-align: center;
     }
-    .education ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    .education li {
+
+    .education h3 {
+      font-size: 1.5rem;
       margin-bottom: 15px;
-    }
-    .education strong {
       color: #0073e6;
+    }
+
+    .education p {
+      font-size: 1.1rem;
+      margin: 5px 0;
+      color: #333;
+    }
+
+    .edu-icon {
+      font-size: 2rem;
+      color: #0073e6;
+      margin-bottom: 15px;
     }
 
     /* -------- Footer -------- */
@@ -145,16 +154,6 @@
   <div class="container">
     <h2>Featured Projects</h2>
     <div class="projects">
-      
-      <div class="project">
-        <h3><a href="https://github.com/danielsolmn/cloud-cast">CloudCast</a></h3>
-        <p>iOS weather app that displays real-time forecasts from multiple locations in a sleek, interactive UI. (Swift, API integration)</p>
-      </div>
-
-      <div class="project">
-        <h3><a href="#">TumblView</a></h3> 
-        <p>Private project: A sleek Tumblr blog viewer with support for posts, images, captions, and summaries in a scrollable feed. (Swift, UIKit)</p>
-      </div>
 
       <div class="project">
         <h3><a href="https://github.com/danielsolmn/bearcuts">BearCuts</a></h3>
@@ -169,6 +168,16 @@
       <div class="project">
         <h3><a href="https://github.com/danielsolmn/Task-App">Task Tracker</a></h3>
         <p>Task management app with categories, calendar view, and smart reminders. (Swift, UIKit, UserDefaults)</p>
+      </div>
+
+      <div class="project">
+        <h3><a href="https://github.com/danielsolmn/cloud-cast">CloudCast</a></h3>
+        <p>iOS weather app that displays real-time forecasts from multiple locations in a sleek, interactive UI. (Swift, API integration)</p>
+      </div>
+
+      <div class="project">
+        <h3><a href="#">TumblView</a></h3> 
+        <p>Private project: A sleek Tumblr blog viewer with support for posts, images, captions, and summaries in a scrollable feed. (Swift, UIKit)</p>
       </div>
 
       <div class="project">
@@ -203,10 +212,10 @@
   <div class="container">
     <h2>Education</h2>
     <div class="education">
-      <ul>
-        <li><strong>Washington University in St. Louis (WashU)</strong> – B.S. Computer Engineering & Financial Engineering (Sophomore, Expected 2027)</li>
-        <li><strong>TT School</strong> – Coursework in Mobile Development & Applied Machine Learning</li>
-      </ul>
+      <div class="edu-icon">🎓</div>
+      <h3>Washington University in St. Louis (WashU)</h3>
+      <p>B.S. Computer Engineering & Financial Engineering</p>
+      <p><em>Sophomore</em></p>
     </div>
   </div>
 
