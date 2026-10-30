@@ -1,0 +1,27 @@
+{
+  "source_peak_gain_V_per_V": -2440.915490280311,
+  "peak_input_V": 0.8998212680385674,
+  "peak_output_V": 1.3247482241187347,
+  "gain_magnitude_dB": 67.75105486945583,
+  "archived_theoretical_gain_V_per_V": -2490.086524102146,
+  "recomputed_additive_nodal_gain_V_per_V": -2473.0956833061323,
+  "recomputed_theory_error_percent": 1.318365717861278,
+  "fit_samples": 501,
+  "raw_samples": 3001,
+  "fit_method": "degree-5 fit over \u00b15 \u00b5V of converged 20 nV transfer data",
+  "saturation_checks": {
+    "Q1": true,
+    "Q2": true,
+    "Q3": true,
+    "Q4": true,
+    "Q5": true,
+    "Q6": true,
+    "Q7": true,
+    "Q8": true,
+    "Q9": true,
+    "Q10": true,
+    "Q11": true,
+    "Q12": true
+  },
+  "source_op_errors": []
+}

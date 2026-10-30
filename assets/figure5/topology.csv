@@ -1,0 +1,13 @@
+Device,Drain,Gate,Source,Bulk
+Q1,n4,vinn,vs,0
+Q2,n3,vinp,vs,0
+Q3,n3,n3,vdd,vdd
+Q4,n4,n4,vdd,vdd
+Q5,vs,bias_n,0,0
+Q6,bias_n,bias_n,0,0
+Q7,n7,n3,vdd,vdd
+Q8,n7,n7,0,0
+Q9,n9,n4,vdd,vdd
+Q10,n10,n7,0,0
+Q11,vout,vb1,n9,vdd
+Q12,vout,vb2,n10,0

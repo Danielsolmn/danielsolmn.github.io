@@ -1,0 +1,33 @@
+// ESE5620/assignment_fig5 verified topology; full VINP transfer sweep.
+simulator lang=spectre
+global 0
+
+include "/project/engineering/cadence21/CDK/sky130_release_0.0.3/models/sky130.lib.spice" section=tt
+
+parameters vinpbias=0
+
+Q1 (n4 vinn vs 0) nfet_01v8 w=30u l=10u as=7.95p ad=7.95p ps=60.5u pd=60.5u m=1
+Q2 (n3 vinp vs 0) nfet_01v8 w=30u l=10u as=7.95p ad=7.95p ps=60.5u pd=60.5u m=1
+Q3 (n3 n3 vdd vdd) pfet_01v8 w=30u l=10u as=7.95p ad=7.95p ps=60.5u pd=60.5u m=1
+Q4 (n4 n4 vdd vdd) pfet_01v8 w=30u l=10u as=7.95p ad=7.95p ps=60.5u pd=60.5u m=1
+Q5 (vs bias_n 0 0) nfet_01v8 w=30u l=10u as=7.95p ad=7.95p ps=60.5u pd=60.5u m=1
+Q6 (bias_n bias_n 0 0) nfet_01v8 w=30u l=10u as=7.95p ad=7.95p ps=60.5u pd=60.5u m=1
+Q7 (n7 n3 vdd vdd) pfet_01v8 w=30u l=10u as=7.95p ad=7.95p ps=60.5u pd=60.5u m=1
+Q8 (n7 n7 0 0) nfet_01v8 w=30u l=10u as=7.95p ad=7.95p ps=60.5u pd=60.5u m=1
+Q9 (n9 n4 vdd vdd) pfet_01v8 w=30u l=10u as=7.95p ad=7.95p ps=60.5u pd=60.5u m=1
+Q10 (n10 n7 0 0) nfet_01v8 w=30u l=10u as=7.95p ad=7.95p ps=60.5u pd=60.5u m=1
+Q11 (vout vb1 n9 vdd) pfet_01v8 w=30u l=10u as=7.95p ad=7.95p ps=60.5u pd=60.5u m=1
+Q12 (vout vb2 n10 0) nfet_01v8 w=30u l=10u as=7.95p ad=7.95p ps=60.5u pd=60.5u m=1
+
+VVDD (vdd 0) vsource dc=1.8 type=dc
+VINP (vinp 0) vsource dc=vinpbias type=dc
+VINN (vinn 0) vsource dc=0.9 type=dc
+VB1 (vb1 0) vsource dc=0.650 type=dc
+VB2 (vb2 0) vsource dc=0.51548 type=dc
+IREF (vdd bias_n) isource dc=200n type=dc
+
+simulatorOptions options temp=27 tnom=27 reltol=1e-7 vabstol=1e-10 iabstol=1e-16 gmindc=1e-16 dc_pivot_check=yes
+save vinp vinn vout vs n3 n4 n7 n9 n10 bias_n
+saveOptions options save=selected
+
+transfer dc param=vinpbias start=0 stop=1.8 step=0.001

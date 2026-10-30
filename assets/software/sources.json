@@ -1,0 +1,263 @@
+{
+  "bearcuts": {
+    "project": "BearCuts",
+    "repository": "https://github.com/Danielsolmn/bearcuts",
+    "readme": "https://github.com/Danielsolmn/bearcuts/blob/main/README.md",
+    "demo": null,
+    "status": "available",
+    "images": [
+      {
+        "source_url": "https://raw.githubusercontent.com/Danielsolmn/bearcuts/main/Homescreen.png",
+        "sha256": "d03c0fe4c6aade000a99afc94d4a4522ae280c9ba8fd2ac52e27dc78b922b972",
+        "kind": "screenshot",
+        "frame_index": 0,
+        "frame_count": 1,
+        "width": 1320,
+        "height": 2868,
+        "local_file": "bearcuts-1.webp",
+        "label": "Home screen"
+      },
+      {
+        "source_url": "https://raw.githubusercontent.com/Danielsolmn/bearcuts/main/Gallery.png",
+        "sha256": "de535bb36fc3eed79f8d0ee5648bc1c9dbf09ccee9c054f125f4f72d1387c2f4",
+        "kind": "screenshot",
+        "frame_index": 0,
+        "frame_count": 1,
+        "width": 1320,
+        "height": 2868,
+        "local_file": "bearcuts-2.webp",
+        "label": "Style gallery"
+      },
+      {
+        "source_url": "https://raw.githubusercontent.com/Danielsolmn/bearcuts/main/Gallery2.png",
+        "sha256": "f6218197050a72817ab3b22801a685f9d7c28cbaf9e44cc0c0c4b874dc5ab517",
+        "kind": "screenshot",
+        "frame_index": 0,
+        "frame_count": 1,
+        "width": 1320,
+        "height": 2868,
+        "local_file": "bearcuts-3.webp",
+        "label": "Gallery categories"
+      }
+    ],
+    "notes": "Original source imagery; no generated UI."
+  },
+  "echonote": {
+    "project": "EchoNote",
+    "repository": "https://github.com/Danielsolmn/echonote",
+    "readme": "https://github.com/Danielsolmn/echonote/blob/main/README.md",
+    "demo": "https://www.loom.com/share/34f4987657544d29913a17fe41753d0f",
+    "status": "available",
+    "images": [
+      {
+        "source_url": "https://raw.githubusercontent.com/Danielsolmn/echonote/main/assets%3Apreview%3A/Home.PNG",
+        "sha256": "8c01e9634444cb3afde899b749b7961a5607487ac31548e8c0dd956b7e663c70",
+        "kind": "screenshot",
+        "frame_index": 0,
+        "frame_count": 1,
+        "width": 1284,
+        "height": 2778,
+        "local_file": "echonote-1.webp",
+        "label": "Saved notes"
+      },
+      {
+        "source_url": "https://raw.githubusercontent.com/Danielsolmn/echonote/main/assets%3Apreview%3A/Record.PNG",
+        "sha256": "c3fa1e354da2200f251ba2231444a2865cb1a01c7c10bcf2e60d0e5635aed292",
+        "kind": "screenshot",
+        "frame_index": 0,
+        "frame_count": 1,
+        "width": 1284,
+        "height": 2778,
+        "local_file": "echonote-2.webp",
+        "label": "Recording screen"
+      },
+      {
+        "source_url": "https://raw.githubusercontent.com/Danielsolmn/echonote/main/assets%3Apreview%3A/Scan.PNG",
+        "sha256": "8d7401f1903440bb9ed6762f4fbbec28210ade44ed1057fb2389867c12f8d16a",
+        "kind": "screenshot",
+        "frame_index": 0,
+        "frame_count": 1,
+        "width": 1284,
+        "height": 2778,
+        "local_file": "echonote-3.webp",
+        "label": "Text scan screen"
+      }
+    ],
+    "notes": "Original source imagery; no generated UI."
+  },
+  "capitals": {
+    "project": "Capital Cities Quiz",
+    "repository": "https://github.com/Danielsolmn/Capitalcities",
+    "readme": "https://github.com/Danielsolmn/Capitalcities/blob/main/README.md",
+    "demo": "https://www.loom.com/share/710999c53fea42b0aa7d0becb11555bf",
+    "status": "available",
+    "images": [
+      {
+        "source_url": "https://cdn.loom.com/sessions/thumbnails/710999c53fea42b0aa7d0becb11555bf-738a00b1eb212414-full-play.gif",
+        "sha256": "6570ef1cbdb51966f43f530c0c42f51a0456a2a64906107959c31080496d8f80",
+        "kind": "walkthrough",
+        "frame_index": 10,
+        "frame_count": 20,
+        "width": 122,
+        "height": 360,
+        "local_file": "capitals-1.webp",
+        "label": "Walkthrough preview still"
+      }
+    ],
+    "notes": "Original README walkthrough thumbnail, saved as a static still; overlays retained."
+  },
+  "cloudcast": {
+    "project": "CloudCast",
+    "repository": "https://github.com/Danielsolmn/cloud-cast",
+    "readme": "https://github.com/Danielsolmn/cloud-cast/blob/main/README.md",
+    "demo": null,
+    "status": "available",
+    "images": [
+      {
+        "source_url": "https://raw.githubusercontent.com/Danielsolmn/cloud-cast/main/screenshot.png",
+        "sha256": "1bef16807372b90cf78dd8b36bc90a78b1e02f7a6a9be921b54426918faafaa6",
+        "kind": "screenshot",
+        "frame_index": 0,
+        "frame_count": 1,
+        "width": 1206,
+        "height": 2622,
+        "local_file": "cloudcast-1.webp",
+        "label": "Weather screen"
+      }
+    ],
+    "notes": "Original source imagery; no generated UI."
+  },
+  "colorstack": {
+    "project": "ColorStack WashU",
+    "repository": "https://github.com/Danielsolmn/colorstack-website",
+    "readme": "https://github.com/Danielsolmn/colorstack-website/blob/main/README.md",
+    "demo": null,
+    "status": "available",
+    "images": [
+      {
+        "local_file": "colorstack-1.webp",
+        "kind": "repository-render",
+        "source_url": "https://github.com/Danielsolmn/colorstack-website/blob/main/index.html",
+        "width": 1280,
+        "height": 720,
+        "sha256": "0314e9c60b87ca4473a732c9f16f9fab1b0cbc2bd8b8ab37ff3f7d10d5fac04f",
+        "label": "Homepage \u00b7 original repository source"
+      }
+    ],
+    "notes": "Original source imagery; no generated UI."
+  },
+  "task-tracker": {
+    "project": "Task Tracker",
+    "repository": "https://github.com/Danielsolmn/Task-App",
+    "readme": "https://github.com/Danielsolmn/Task-App/blob/main/README.md",
+    "demo": "https://www.loom.com/share/1a003f66c7064a1fb76e816417d03171",
+    "status": "missing",
+    "images": [],
+    "notes": "README thumbnail returned HTTP 403; screenshot still needed."
+  },
+  "trivia": {
+    "project": "Trivia App",
+    "repository": "https://github.com/Danielsolmn/TriviaApp",
+    "readme": "https://github.com/Danielsolmn/TriviaApp/blob/main/README.md",
+    "demo": "https://www.loom.com/share/f20d84b431184f56ab0f17a3c488230f",
+    "status": "available",
+    "images": [
+      {
+        "source_url": "https://cdn.loom.com/sessions/thumbnails/f20d84b431184f56ab0f17a3c488230f-ef422f2b31409259-full-play.gif",
+        "sha256": "2a8cb7fe075f357b4171acab8aab9523b4627582268f9c02d2e0976aa138dbd9",
+        "kind": "walkthrough",
+        "frame_index": 12,
+        "frame_count": 25,
+        "width": 179,
+        "height": 360,
+        "local_file": "trivia-1.webp",
+        "label": "Walkthrough preview still"
+      }
+    ],
+    "notes": "Original README walkthrough thumbnail, saved as a static still; overlays retained."
+  },
+  "flix": {
+    "project": "Flix-Favorites",
+    "repository": "https://github.com/Danielsolmn/Flix-Favorites",
+    "readme": "https://github.com/Danielsolmn/Flix-Favorites/blob/main/README.md",
+    "demo": "https://www.loom.com/share/9a181868e2c94666bad4b25fa8c33e67",
+    "status": "available",
+    "images": [
+      {
+        "source_url": "https://cdn.loom.com/sessions/thumbnails/9a181868e2c94666bad4b25fa8c33e67-6c488e71aedae344-full-play.gif",
+        "sha256": "db8a06f8df846a443c438691988606848103aa7d25d3c7c2cab26854db84393f",
+        "kind": "walkthrough",
+        "frame_index": 12,
+        "frame_count": 25,
+        "width": 167,
+        "height": 360,
+        "local_file": "flix-1.webp",
+        "label": "Walkthrough preview still"
+      }
+    ],
+    "notes": "Original README walkthrough thumbnail, saved as a static still; overlays retained."
+  },
+  "wordle": {
+    "project": "Wordle Clone",
+    "repository": "https://github.com/Danielsolmn/Wordle-App",
+    "readme": "https://github.com/Danielsolmn/Wordle-App/blob/main/README.md",
+    "demo": "https://www.loom.com/share/6e9f9682cdf14a09a3e43993896f3ac3",
+    "status": "available",
+    "images": [
+      {
+        "source_url": "https://cdn.loom.com/sessions/thumbnails/6e9f9682cdf14a09a3e43993896f3ac3-0f001cf27166ec14-full-play.gif",
+        "sha256": "edf64be237a711ea91ffe01b268434568a47adc57dcda0a9e134b85f5b56d7b2",
+        "kind": "walkthrough",
+        "frame_index": 10,
+        "frame_count": 21,
+        "width": 554,
+        "height": 360,
+        "local_file": "wordle-1.webp",
+        "label": "Walkthrough preview still"
+      }
+    ],
+    "notes": "Original README walkthrough thumbnail, saved as a static still; overlays retained."
+  },
+  "mario": {
+    "project": "Mario Kart iOS Game",
+    "repository": "https://github.com/Danielsolmn/Mario-2",
+    "readme": "https://github.com/Danielsolmn/Mario-2/blob/main/README.md",
+    "demo": "https://www.loom.com/share/3a420fa6036242afbc18dd8a508fb2c8",
+    "status": "available",
+    "images": [
+      {
+        "source_url": "https://cdn.loom.com/sessions/thumbnails/3a420fa6036242afbc18dd8a508fb2c8-61632adf183379b6-full-play.gif",
+        "sha256": "cf8ed987c4172041af6cc540dd947e669d57c372cf1b92fa3ecb7824f8de31a8",
+        "kind": "walkthrough",
+        "frame_index": 10,
+        "frame_count": 20,
+        "width": 82,
+        "height": 360,
+        "local_file": "mario-1.webp",
+        "label": "Walkthrough preview still"
+      }
+    ],
+    "notes": "Original README walkthrough thumbnail, saved as a static still; overlays retained."
+  },
+  "tumblview": {
+    "project": "TumblView",
+    "repository": "https://github.com/Danielsolmn/TumblView",
+    "readme": "https://github.com/Danielsolmn/TumblView/blob/main/README.md",
+    "demo": "https://www.loom.com/share/8cf18411fe0c416a81b1e69c1ae73a5d",
+    "status": "available",
+    "images": [
+      {
+        "source_url": "https://cdn.loom.com/sessions/thumbnails/8cf18411fe0c416a81b1e69c1ae73a5d-e412c518bf5e1daa-full-play.gif",
+        "sha256": "c792516e30562d9697f5cad6261fd3ec17242b52dc2a3159aa02e5aafb2fd2bc",
+        "kind": "walkthrough",
+        "frame_index": 12,
+        "frame_count": 25,
+        "width": 250,
+        "height": 360,
+        "local_file": "tumblview-1.webp",
+        "label": "Walkthrough preview still"
+      }
+    ],
+    "notes": "Original README walkthrough thumbnail, saved as a static still; overlays retained."
+  }
+}
